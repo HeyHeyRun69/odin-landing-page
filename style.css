@@ -103,3 +103,51 @@ p{
     color: gray;
     text-align: center;
 }
+
+.quote {
+    margin-top: 100px;
+    border-top: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding:150px 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.sign-up-section {
+    display: flex;
+    background-color: rgb(54, 132, 241);
+    margin: 100px 150px;
+    justify-content: space-around;
+    padding: 100px;
+    border-radius: 20px;
+    align-content: flex-start;
+}
+
+h4 {
+    color:white;
+    font-size:40px;
+}
+
+button {
+    border: solid white;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding:25px;
+}
